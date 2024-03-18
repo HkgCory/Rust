@@ -18,9 +18,9 @@ fn main() {
 
     fn inspect(s: &String) {
         if s.ends_with("s"){
-            println!("plural");
+            println!("{} is plural", s);
         } else {
-            println!("singular");
+            println!("{} is singular", s);
         }
     }
     // 2. Write a function `change` that takes a *mutable* reference to a String and adds an "s" to
