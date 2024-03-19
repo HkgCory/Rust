@@ -67,7 +67,7 @@ fn main() {
 
     let mut total = 0;
 
-    for shot in &shots {
+    for shot in shots {
         total += shot.points();
     }
     // 3. Finally, loop through each shot in shots and add its points to total
